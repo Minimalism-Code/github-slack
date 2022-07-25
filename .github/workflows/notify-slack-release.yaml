@@ -13,4 +13,4 @@ jobs:
       - name: Notify Slack on Release
         uses: instantish/notify-slack-on-release@1.0.0
         with:
-          slack_webhook_url: ${{ secrets.LUGHNI_GITHUB_SLACK }}
+          slack_webhook_url: ${{ secrets.TRY_ON }}
